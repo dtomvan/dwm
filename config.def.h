@@ -20,6 +20,7 @@ static const char *colors[][3]      = {
 };
 
 static const char *const autostart[] = {
+	"slstatus", NULL,
 	NULL,
 };
 
@@ -52,7 +53,7 @@ static const Layout layouts[] = {
 };
 
 /* key definitions */
-#define MODKEY Mod1Mask
+#define MODKEY Mod4Mask
 #define TAGKEYS(KEY,TAG) \
 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
