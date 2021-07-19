@@ -42,7 +42,14 @@ like this in your .xinitrc:
     exec dwm
 
 
-Configuration
+Patches
 -------------
-The configuration of dwm is done by creating a custom config.h
-and (re)compiling the source code.
+- actualfullscreen
+- attachaside
+- awesomebar
+- blanktags
+- centeredmaster
+- coolautostart
+- cropwindows
+- hidevacanttags
+- scratchpads
